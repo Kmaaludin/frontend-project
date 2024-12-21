@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blood donars</title>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+
+   <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h5 style="color: black; background-color: rgb(255, 255, 255);"> blood donation registeration </h5>
+        
+        <form>
+          <div class="row">
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="fullname" class="mb-2" style="color: black;">fullname</label>
+               <div class="input-group">
+                <span class="input-group-text"><i class="fa fa-user" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter full name" id="fullname">
+               </div>
+               </div> 
+            </div>
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="contact number" class="mb-2"  style="color: black;">contact number</label>
+               <div class="input-group">
+                <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter contact number" id="contact number">
+               </div>
+               </div> 
+            </div>
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+                  <label for="blood" class="mb-2"  style="color: black;">Blood Groop</label>
+                  <div class="input-group">
+                      <span class="input-group-text"><i class="fa fa-tint" aria-hidden="true" style="color: blue;"></i></span>
+                      <select name="Blood" id="blood" class="form-select">
+                          <option value="A+">A+</option>
+                          <option value="A+">A-</option>
+                          <option value="A+">B+</option>
+                          <option value="A+">B-</option>
+                          <option value="A+">O+</option>
+                          <option value="A+">O-</option>
+                          <option value="A+">AB+</option>
+                          <option value="A+">AB-</option>
+                      </select>
+                  </div>
+                  </div>
+             </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="age" class="mb-2"  style="color: black;">age</label>
+                 <div class="input-group">
+                  <span class="input-group-text"> <i class="fa-solid fa-person" style="color: blue;"></i></span>
+                  <input type="text" class="form-control"  placeholder="enter age" id="age">
+                 </div>
+                 </div> 
+              </div>
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="gender" class="mb-2" style="color: black;">gender</label>
+                 <div class="input-group">
+                  <span class="input-group-text"><i class="fa fa-transgender-alt" aria-hidden="true" style="color: blue;"></i></span>
+                 <select name="gender" id="gender" class="form-select">
+                  <option value="neurology">male</option>
+                  <option value="radiology">female</option>
+                 </select>
+                 </div>
+                 </div> 
+              </div>
+
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="donation date" class="mb-2" style="color: black;">donation date</label>
+                 <div class="input-group">
+                  <span class="input-group-text"><i class="fa-solid fa-calendar-days" style="color: blue;"></i> </span>
+                  <input type="date" class="form-control"  placeholder="donation date" id="donation date">
+                 </div>
+                 </div> 
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="address" class="mb-2"  style="color: black;">adress</label>
+                   <div class="input-group">
+                    <span class="input-group-text"> <i class="fa-solid fa-location-dot" style="color: blue;"></i></span>
+                    <input type="text" class="form-control" placeholder="enter address" id="address">
+                   </div>
+                   </div> 
+                </div>
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="medical history" class="mb-2"  style="color: black;">medical history</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-notes-medical" style="color: blue;"></i></span>
+                   <textarea id="additional description" name="additional description" rows="8" cols="30" placeholder=" enter medical history"></textarea>
+                   </div>
+                   </div> 
+                </div>
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="additional description" class="mb-2"  style="color: black;">additional description</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-location-dot" style="color: blue;"></i></span>
+                    <textarea id="additional description" name="additional description" rows="8" cols="30" placeholder="eneter additional description"></textarea>
+                   </div>
+                   </div> 
+                </div>
+              </div>
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-md-3 mt-3 g-3">
+                    <button type="button" class="btn btn-success" style="width: 270px;">save <i class="fas fa-save"></i></button>
+                </div>
+                <div class="col-md-3 mt-3 g-3">
+                    <button type="button" class="btn btn-danger" style="width: 270px;">Delete <i class="fa fa-trash"></i></button>
+                </div>
+                <div class="col-md-3 mt-3 g-3">
+                    <button type="button" class="btn btn-warning" style="width: 270px;">update <i class="fas fa-pen"></i></button>
+                </div>
+                <div class="col-md-3 mt-3 g-3">
+                    <button type="button" class="btn btn-info" style="width: 270px;">Search <i class="fas fa-search"></i></button>
+                </div>
+             </div>
+      </form>
+    </div>  
+    </div>
+   </div>
+
+      </div>
+    </div>
+  </div>
+ 
+  
+    </div>
+    <div class="container">
+      <h5 class="table-striped">list of somali blood donars</h5>        
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>name</th>
+            <th>contact</th>
+            <th>blood group</th>
+            <th>donation date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td> guuleed raage</td>
+            <td>0907123456</td>
+            <td>B+</td>
+            <td>2024-9-16</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>faaduma cali</td>
+            <td>061-678-345</td>
+            <td>o+</td>
+            <td>2024-3-16</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>daa'uud jimcaale</td>
+            <td>061-567-987</td>
+            <td>A+</td>
+            <td>2024-12-10</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>shirwac muuse</td>
+            <td>090-511-223</td>
+            <td>AB+</td>
+            <td>2024-12-25</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>guhaad hayaan</td>
+            <td>090-611-887</td>
+            <td>A+</td>
+            <td>2024-12-10</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>gaani ismaacil</td>
+            <td>090-732-765</td>
+            <td>A-</td>
+            <td>2024-8-10</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>dahabo faarax</td>
+            <td>090-758-345</td>
+            <td>B-</td>
+            <td>2024-12-14</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  
+    
+     
+  <!--- <script src="js/bootstrap.bundle.main.js"></script> -->
+</body>
+</html>

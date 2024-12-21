@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>doctors regisreration</title>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+
+   <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <main>
+  <link href="dashboard.html">
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h5 style="color: black; background-color: rgb(255, 255, 255);" > Add New Doctors</h5>
+        <form>
+          <div class="row">
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="fullname" class="mb-2" style="color: black;">fullname</label>
+               <div class="input-group">
+                <span class="input-group-text"><i class="fa fa-user" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter full name" id="fullname">
+               </div>
+               </div> 
+            </div>
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="email" class="mb-2"  style="color: black;">email</label>
+               <div class="input-group">
+                <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter email" id="email">
+               </div>
+               </div> 
+            </div>
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="title" class="mb-2"  style="color: black;">title</label>
+               <div class="input-group">
+                <span class="input-group-text"><i class="fa fa-shopping-bag" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter title" id="title">
+               </div>
+               </div> 
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="department" class="mb-2" style="color: black;">Department</label>
+                 <div class="input-group">
+                  <span class="input-group-text"><i class="fa fa-building" aria-hidden="true" style="color: blue;"></i></span>
+                 <select name="department" id="department" class="form-select">
+                  <option value="neurology">neurology</option>
+                  <option value="radiology">radiology</option>
+                  <option value="surgery">surgery</option>
+                 </select>
+                 </div>
+                 </div> 
+              </div>
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="experience" class="mb-2"style="color: black;">experience</label>
+                 <div class="input-group">
+                  <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true" style="color: blue;"></i></span>
+                  <input type="text" class="form-control"  placeholder="enter experience in years" id="experience">
+                 </div>
+                 </div> 
+              </div>
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="contact number" class="mb-2" style="color: black;">contact number</label>
+                 <div class="input-group">
+                  <span class="input-group-text"><i class="fa fa-phone" aria-hidden="true" style="color: blue;"></i> </span>
+                  <input type="text" class="form-control"  placeholder="enter contact number" id="contact number">
+                 </div>
+                 </div> 
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="degree" class="mb-2" style="color: black;">Degree</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><i class="fa fa-graduation-cap" aria-hidden="true" style="color: blue;"></i></span>
+                    <input type="text" class="form-control" placeholder="enter degree" id="degree">
+                   </div>
+                   </div> 
+                </div>
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="fees" class="mb-2" style="color: black;">fees</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><i class="fa fa-usd" aria-hidden="true" style="color: blue;"></i></span>
+                    <input type="text" class="form-control"  placeholder="enter fees" id="fees">
+                   </div>
+                   </div> 
+                </div>
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="profile photo" class="mb-2" style="color: black;">profile photo</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><i class="fa fa-camera" aria-hidden="true" style="color: blue;"></i></span>
+                    <input type="file" class="form-control"  placeholder="enter your picture" id="profile photo">
+                   </div>
+                   </div> 
+                </div>
+              </div>
+              <div class="container">
+                <div class="row" style="margin-top: 10px;">
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-success" style="width: 270px;">save <i class="fas fa-save"></i></button>
+                  </div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-danger" style="width: 270px;">Delete <i class="fa fa-trash"></i></button>
+                  </div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-warning" style="width: 270px;">update <i class="fas fa-pen"></i></button>
+                  </div>
+                  <div class="col-sm=3">
+                      <button type="button" class="btn btn-info" style="width: 270px;">Search <i class="fas fa-search"></i></button>
+                  </div>
+               </div>  
+               </div>        
+      </form>
+      </div>     
+    </div>
+   </div>
+
+      </div>
+    </div>
+  </div>
+ 
+  
+    </div>
+    <div class="container">
+      <h5 class="table-striped">list of doctors</h5>        
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>name</th>
+            <th>Email</th>
+            <th>title</th>
+            <th>Department</th>
+            <th>experience</th>
+            <th>contact</th>
+            <th>fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td> dr. john Doe</td>
+            <td>johndoe@example.com</td>
+            <td>cardiologist</td>
+            <td>cardiology</td>
+            <td>10 Years</td>
+            <td>123-456-789</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>dr. jane smith</td>
+            <td>janesmith@example.com</td>
+            <td>Neurologist</td>
+            <td>neurology</td>
+            <td>8 years</td>
+            <td>987-654-3210</td>
+            <td>$200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</main>
+</body>
+</html>
