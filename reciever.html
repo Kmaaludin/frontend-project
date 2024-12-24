@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blood reciever regisreration</title>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+
+   <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h3 style="color: black; background-color: rgb(255, 255, 255);"> blood request form </h3>
+        
+        <form>
+          <div class="row">
+            <div class="col-md-4 g-3 mb-4 mt-0">
+              <div>
+               <label for="fullname" class="mb-2" style="color: black;">fullname</label>
+               <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true" style="color: blue;"></i></span>
+                <input type="text" class="form-control"  placeholder="enter full name" id="fullname">
+               </div>
+               </div> 
+            </div>
+            <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="email" class="mb-2"  style="color: black;">email</label>
+                 <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true" style="color: blue;"></i></span>
+                  <input type="text" class="form-control"  placeholder="enter email" id="email">
+                 </div>
+                 </div> 
+              </div>
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                    <div>
+                     <label for="phone number" class="mb-2" style="color: black;">phone number</label>
+                     <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true" style="color: blue;"></i> </span>
+                      <input type="text" class="form-control"  placeholder="enter phone number" id="phone number">
+                     </div>
+                     </div> 
+                  </div>
+             </div>
+            <div class="row">
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="region" class="mb-2"  style="color: black;">region</label>
+                 <div class="input-group">
+                  <span class="input-group-addon"> <i class="fa-solid fa-location-dot" style="color: blue;"></i> </span>
+                  <input type="text" class="form-control"  placeholder="enter region" id="region">
+                 </div>
+                 </div> 
+              </div>
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="town" class="mb-2" style="color: black;">town</label>
+                 <div class="input-group">
+                  <span class="input-group-addon"><i class="fa-solid fa-house" style="color: blue;"></i> </span>
+                  <input type="text" class="form-control"  placeholder=" enter town " id="town">
+                 </div>
+                 </div> 
+              </div>
+              <div class="col-md-4 g-3 mb-4 mt-0">
+                <div>
+                 <label for="village" class="mb-2" style="color: black;">village</label>
+                 <div class="input-group">
+                  <span class="input-group-addon"> <i class="fa-solid fa-home" style=" color: blue;;"></i> </span>
+                  <input type="text" class="form-control"  placeholder="enter village" id="village">
+                 </div>
+                 </div> 
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-4 g-3 mb-4 mt-0">
+                  <div>
+                   <label for="blood type" class="mb-2"  style="color: black;">blood type</label>
+                   <div class="input-group">
+                    <span class="input-group-addon"> <i class="fa-solid fa-location-dot" style="color: blue;"></i></span>
+                    <input type="text" class="form-control" placeholder="enter blood type" id="blood type">
+                   </div>
+                </div>
+                </div>
+                </div>
+                <div class="container">
+              <div class="row" style="margin-top: 10px;">
+                <div class="col-sm-3  mt-3 g-3">
+                    <button type="button" class="btn btn-success" style="width: 270px;">save <i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+                <div class="col-sm-3  mt-3 g-3">
+                    <button type="button" class="btn btn-danger" style="width: 270px;">Delete <i class="fa-solid fa-rotate-left"></i></button>
+                </div>
+                <div class="col-sm-3  mt-3 g-3">
+                    <button type="button" class="btn btn-warning" style="width: 270px;">update <i class="fas fa-pen"></i></button>
+                </div>
+                <div class="col-sm-3  mt-3 g-3">
+                    <button type="button" class="btn btn-info" style="width: 250px;">Search <i class="fas fa-search"></i></button>
+                </div>
+             </div>  
+             </div>        
+      </form>
+    </div>  
+
+
+ 
+  
+    </div>
+    <div class="container">
+      <h5 class="table-striped">list of blood request</h5>        
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>name</th>
+            <th>email</th>
+            <th>phone</th>
+            <th>region</th>
+            <th>town</th>
+            <th>village</th>
+            <th>blood type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td> guuleed raage</td>
+            <td>guuleed.raage@gmail.com</td>
+            <td>0907123456</td>
+            <td>sanaag</td>
+            <td>ceerigaabo</td>
+            <td>dayaxa</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>faaduma cali</td>
+            <td>faadumo.cali@gmail.com</td>
+            <td>090-123-123</td>
+            <td>bari</td>
+            <td>boosaaaso</td>
+            <td>laanta hawada</td>
+            <td>A-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>daa'uud jimcaale</td>
+            <td>daauud.jimcaale@gmail.com</td>
+            <td>061-567-987</td>
+            <td>nugaal</td>
+            <td>garoowe</td>
+            <td>waaberi</td>
+            <td>B+</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>shirwac muuse</td>
+            <td>shirwac.muuse@gmail.com</td>
+            <td>090-511-223</td>
+            <td>sool</td>
+            <td>laascaanood</td>
+            <td>gol-jano</td>
+            <td>o+</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>guhaad hayaan</td>
+            <td>guhaadhayaan@gmail.com</td>
+            <td>090-611-887</td>
+            <td>bari</td>
+            <td>boosaaso</td>
+            <td>xerya caws</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>gaani ismaacil</td>
+            <td>guhaadhayan@gmail.com</td>
+            <td>090-732-765</td>
+            <td>bari</td>
+            <td>boosaaso</td>
+            <td>al raxma</td>
+            <td>AB+</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>dahabo faarax</td>
+            <td>dahabofaarx@gmail.com</td>
+            <td>090-758-345</td>
+            <td>sanaag</td>
+            <td>buraan</td>
+            <td>hilisboon</td>
+            <td>o+</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  
+    
+     
+  <!--- <script src="js/bootstrap.bundle.main.js"></script> -->
+</body>
+</html>
