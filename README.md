@@ -20,6 +20,9 @@ the main html elements were i used is:
 
 challenges i faced during preparation:
 - the difficult proplem i faced is grid clasess, i solve it after learning from youtube and websites.
+
+- images:
+  
   ![Screenshot 2024-12-24 165534](https://github.com/user-attachments/assets/61ad2805-9add-452b-8f61-3343159033a5)
   ![Screenshot 2024-12-24 164734](https://github.com/user-attachments/assets/058aaa6f-6cb5-47ba-985d-007a5f7946f2)
 ![Screenshot 2024-12-24 164709](https://github.com/user-attachments/assets/c7003105-54c8-4d34-bb06-7b4e623a551d)
